@@ -1,0 +1,26 @@
+name: relay-tts
+on:
+  push:
+    branches: [tts-test]
+    paths: ['relay/news.json']
+permissions:
+  contents: write
+concurrency: {group: relay-tts, cancel-in-progress: false}
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: mark start
+        run: echo "JOB_START=$(date -u +%s)" >> $GITHUB_ENV
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install -q edge-tts
+      - run: cd relay && python tts.py
+      - name: commit mp3 back
+        run: |
+          mkdir -p relay/out && mv relay/news.mp3 relay/result.json relay/out/
+          git config user.name relay-bot && git config user.email relay-bot@users.noreply.github.com
+          git add relay/out && git commit -qm "relay: mp3 $(date -u +%FT%TZ)" && git push -q
