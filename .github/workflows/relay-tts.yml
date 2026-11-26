@@ -24,3 +24,8 @@ jobs:
           mkdir -p relay/out && mv relay/news.mp3 relay/result.json relay/out/
           git config user.name relay-bot && git config user.email relay-bot@users.noreply.github.com
           git add relay/out && git commit -qm "relay: mp3 $(date -u +%FT%TZ)" && git push -q
+      - name: callback worker
+        run: |
+          K=$(python -c "import json;print(json.load(open('relay/out/result.json'))['relay_key'])")
+          SHA=$(git rev-parse HEAD)
+          for i in 1 2 3; do curl -fsS -m 60 "https://news.aigoo.eu.cc/_relay_pull?k=$K&sha=$SHA" && break; sleep 10; done

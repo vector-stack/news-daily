@@ -30,7 +30,7 @@ for k,(lang,t) in enumerate(lines):
     files+=[o,gap]
 open(f"{seg}/list.txt","w").write("".join(f"file '{os.path.abspath(f)}'\n" for f in files))
 subprocess.run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",f"{seg}/list.txt","-ar","24000","-ac","1","-c:a","libmp3lame","-b:a","64k","news.mp3"],check=True)
-res=dict(triggered_at=N.get("triggered_at"),job_start=JOB_START,queue_seconds=(JOB_START-N["triggered_at"]) if N.get("triggered_at") else None,
+res=dict(relay_key=N.get("relay_key","dry"),triggered_at=N.get("triggered_at"),job_start=JOB_START,queue_seconds=(JOB_START-N["triggered_at"]) if N.get("triggered_at") else None,
  segments=len(lines),failed=fail,retries=retries,short=short,tts_seconds=round(time.time()-t0,1),mp3_seconds=round(dur("news.mp3"),1),mp3_mb=round(os.path.getsize("news.mp3")/1e6,2),done_at=int(time.time()))
 print(json.dumps(res));json.dump(res,open("result.json","w"))
 with open(os.environ.get("GITHUB_STEP_SUMMARY","/dev/null"),"a") as f: f.write("```\n"+json.dumps(res,indent=1)+"\n```\n")
