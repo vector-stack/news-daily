@@ -1,0 +1,196 @@
+{
+ "date": "2026-11-26",
+ "weekday": "星期四",
+ "intro_zh": "早上好，这里是今日新闻速览，今天是11月26日，星期四。",
+ "intro_en": "Good morning, this is today's news briefing. Today is Thursday, November 26.",
+ "outro_zh": "今天的新闻就到这里，祝你有美好的一天。",
+ "outro_en": "That's all for today. Have a great day.",
+ "sections": [
+  {
+   "name": "AI / 科技",
+   "items": [
+    {
+     "title": "黄仁勋重返英伟达掌舵",
+     "sum": "CNBC报道，黄仁勋重返英伟达出任CEO，显示中美AI竞争不只关乎芯片。",
+     "src": "CNBC",
+     "en": "Jensen Huang's return as Nvidia CEO shows the US-China AI race is about more than chips.",
+     "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html"
+    },
+    {
+     "title": "Anthropic破发，创始人套现",
+     "sum": "Anthropic上市次日股价跌破发行价，其创始人兄妹合计套现约5.6亿美元。",
+     "src": "东方财富网",
+     "en": "Anthropic fell below its IPO price, and its founding siblings cashed out about $560 million the day after listing.",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhLU82b2drcVVXaFh4cW9YckZ6UzA1bUpVcUVCbTdjemoyWC1FaDE0U1dENnlHUnFTUWFXdmd3OXJzUXZhS1NmcV8yRVZWSXBiZUhjTHlXWVFjbFpGbk51OA?oc=5"
+    },
+    {
+     "title": "SpaceX获批建百万太空数据中心",
+     "sum": "美国FCC批准SpaceX的Starmind项目，马斯克称这是一大进展。",
+     "src": "Al Jazeera",
+     "en": "The FCC approved SpaceX's Starmind project for one million space data centres, which Musk hailed.",
+     "link": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres?traffic_source=rss"
+    },
+    {
+     "title": "Tidal将下架纯AI生成歌曲",
+     "sum": "音乐流媒体平台Tidal宣布，下月起全面下架纯AI生成的音乐。",
+     "src": "钛媒体",
+     "en": "Streaming platform Tidal will remove purely AI-generated songs starting next month.",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iMjBySkx0V1dmYUVIVGlfUmF2WE5aUjEtVDF4U2I3NVpiamJkUVhaRFVCVXVTN2J0aXRGa1hvNXo2SWxlUWNaTzVWZkpwSG04SjlIaUtBLWNLQQ?oc=5"
+    },
+    {
+     "title": "神舟二十四号发射，巴航天员同行",
+     "sum": "神舟二十四号成功发射，首位巴基斯坦航天员随队登上中国天宫空间站。",
+     "src": "BBC",
+     "en": "Shenzhou-24 launched successfully, carrying the first Pakistani astronaut to China's Tiangong station.",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHWkhOUEJsMllPdXNtTWRlclVTX0hmQXJIcDVINW9DSmcxbkozcFFORld5VHZETlpiYzViajgyRzlOcWJvb3dYSTdYM2Q0ZWdyX3A4eVBjZ2pyNlJzQkZHSDc5RDMyZjjSAWxBVV95cUxNSjlZXy11bk5FTDJ5U0loWXFKc0VNSzJ4LVRialR2eUtVRjctc2RJb1QtTUNqWXdNSnpHbVZQXzZ3RndWSm1ZM3ozVFZQTGlncjBJdFRpUk8wYW5tQlNZc2xSeldHSjUxbXZSM3k?oc=5"
+    }
+   ]
+  },
+  {
+   "name": "金融市场",
+   "items": [
+    {
+     "title": "纳指一度跌超4%，英伟达重挫",
+     "sum": "纳指100一度跌超4%恐陷熊市，道指转涨，英伟达重挫7%，金银大跌，资金涌入美债。",
+     "src": "华尔街见闻",
+     "en": "The Nasdaq 100 fell over 4% at one point, Nvidia dropped 7%, gold and silver slid, and money flowed into Treasuries.",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oREhXV2g4X3VMLWNjLTNBT2FHeWFObkJBMjU1Vjk4UGNZc2pEdGtvUE1seUp6b25pQkRaSG9vMUtuLTVtU1o4SDliYzJYRFNkT2t3?oc=5"
+    },
+    {
+     "title": "美拟对14个贸易伙伴加征关税",
+     "sum": "美国提议对包括中国和欧盟在内的14个贸易伙伴加征新关税，称针对不公平贸易做法。",
+     "src": "CNBC",
+     "en": "The US proposed new tariffs on 14 trading partners, including China and the EU, over practices it deems unfair.",
+     "link": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
+    },
+    {
+     "title": "美联储青睐通胀指标升至3.8%",
+     "sum": "CNBC称，美联储偏爱的PCE通胀指标10月加速上升至3.8%，抬高明年利率风险。",
+     "src": "CNBC",
+     "en": "The Fed's preferred inflation gauge accelerated to 3.8% in October, raising the stakes for 2027.",
+     "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+    },
+    {
+     "title": "现货黄金跌破3500美元",
+     "sum": "国际现货黄金跌破每盎司3500美元，创2025年9月以来的阶段新低。",
+     "src": "央广财经",
+     "en": "Spot gold fell below $3,500 an ounce, its lowest since September 2025.",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZa1l1MU51U0s5VkRjYnJUNTdka0VlYVpFc3R1ZE11OHRDdzZCcUE0VmhUeE1JdUpJNVdoc1RRRS1QNEFEeEFhMjYwd2Z6TjItZFFuOEE1a1hZRUdqZFV3QjdoY2VxVHpuRjZpa3Y3UQ?oc=5"
+    }
+   ]
+  },
+  {
+   "name": "国际时政",
+   "items": [
+    {
+     "title": "以法官建议撤销对总理最严重指控",
+     "sum": "以色列法官建议撤销对内塔尼亚胡的大部分最严重指控，他称审判应当结束。",
+     "src": "BBC",
+     "en": "Israeli judges recommended dropping most of the most serious charges against Netanyahu, who says his trial should end.",
+     "link": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "title": "朝鲜驱逐瑞士外交官",
+     "sum": "朝鲜因制裁争端驱逐瑞士外交办事处代表，瑞士称将通过朝鲜驻外使馆保持联系。",
+     "src": "BBC",
+     "en": "North Korea expelled a Swiss diplomat in a sanctions row; Switzerland says ties will continue via North Korea's embassy.",
+     "link": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "title": "以军空袭打死哈马斯安全负责人",
+     "sum": "以色列空袭加沙城，打死哈马斯内部安全机构北部负责人阿布·奥夫及其家人。",
+     "src": "BBC",
+     "en": "An Israeli strike in Gaza City killed a senior Hamas security official and his family.",
+     "link": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "title": "乌称激光首次击落俄喷气无人机",
+     "sum": "乌克兰称其Blysk激光系统拦截了一架俄罗斯喷气式无人机，属世界首次。",
+     "src": "Al Jazeera",
+     "en": "Ukraine says its Blysk laser intercepted a Russian jet-powered drone, a world first.",
+     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/ukrainian-laser-downs-russian-jet-powered-drone-in-world-first?traffic_source=rss"
+    },
+    {
+     "title": "胡塞袭击沙特PIF大楼致11伤",
+     "sum": "也门胡塞武装袭击沙特主权基金PIF大楼，造成11人受伤，这是六天内第二次袭击。",
+     "src": "CNBC",
+     "en": "A Houthi attack on Saudi sovereign fund PIF's tower injured 11, the second in six days.",
+     "link": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html"
+    }
+   ]
+  },
+  {
+   "name": "社会民生",
+   "items": [
+    {
+     "title": "开罗油罐车起火至少30死",
+     "sum": "埃及开罗环城公路一辆油罐车相撞引发大火，至少30人死亡、约25人受伤。",
+     "src": "Guardian",
+     "en": "At least 30 were killed as a fuel tanker crash ignited a large fire on a Cairo highway.",
+     "link": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
+    },
+    {
+     "title": "哥伦比亚警方突入超市救人质",
+     "sum": "哥伦比亚警方冲入超市，解救被劫持17小时的76名人质，一名枪手被击毙。",
+     "src": "BBC",
+     "en": "Colombian police stormed a supermarket and freed 76 hostages held for 17 hours; one gunman was killed.",
+     "link": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "title": "遭误遣返男子离美赴西班牙",
+     "sum": "被特朗普政府错误遣返的阿夫雷戈·加西亚，在近20个月后与妻子离美前往西班牙。",
+     "src": "Al Jazeera",
+     "en": "Kilmar Abrego Garcia, wrongly deported by the Trump administration, left the US for Spain with his wife.",
+     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/migrant-wrongly-deported-by-trump-leaves-us-for-spain?traffic_source=rss"
+    },
+    {
+     "title": "美军爱荷华爆破称“大成功”",
+     "sum": "美国陆军在爱荷华州受控引爆叠氮化铅，称行动非常成功，尽管居民担忧。",
+     "src": "BBC",
+     "en": "The US Army called its controlled explosives blast in Iowa a huge success despite residents' concerns.",
+     "link": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful?traffic_source=rss"
+    }
+   ]
+  },
+  {
+   "name": "文娱体育",
+   "items": [
+    {
+     "title": "巴黎圣日耳曼2比2战平罗马",
+     "sum": "欧冠卫冕冠军巴黎圣日耳曼与罗马2比2战平，马伦和罗马球员均有进球。",
+     "src": "Al Jazeera",
+     "en": "Champions League holders PSG were held to a 2-2 draw by Roma.",
+     "link": "https://www.aljazeera.com/sports/2026/11/25/malen-and-roma-deny-injury-hit-psg-in-champions-league-draw?traffic_source=rss"
+    },
+    {
+     "title": "曼联客场对葡萄牙体育，费尔南德斯梅开二度",
+     "sum": "曼联客场对阵葡萄牙体育，费尔南德斯进两球，但裁判判罚成为焦点。",
+     "src": "Al Jazeera",
+     "en": "Man United were denied at Sporting as the referee overshadowed Fernandes's double.",
+     "link": "https://www.aljazeera.com/sports/2026/11/25/man-united-denied-at-sporting-as-referee-overshadows-fernandes-double?traffic_source=rss"
+    },
+    {
+     "title": "贝林厄姆世界波，皇马5比1大胜",
+     "sum": "贝林厄姆的精彩进球在皇马5比1大胜的比赛中引发与齐达内的比较。",
+     "src": "Al Jazeera",
+     "en": "Bellingham's spectacular goal in Real Madrid's 5-1 win sparked Zidane comparisons.",
+     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/bellinghams-wondergoal-sparks-zidane-comparisons?traffic_source=rss"
+    },
+    {
+     "title": "谷爱凌肩膀脱臼或缺席云顶站",
+     "sum": "谷爱凌肩膀脱臼，或将缺席云顶世界杯站比赛，她本人已发文说明。",
+     "src": "澎湃新闻",
+     "en": "Eileen Gu dislocated her shoulder and may miss the Secret Garden World Cup stop; she posted about it.",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sMllWb3pFeHN3QXNvVHpFVlBQaUtRRXJOZTdQbFdnZzI4bGJ3SG1uTmFfS3BwZGg3eE9ta3ZVWmQ0MnpUMlVEX3NDZzhsTWRLd2tEXzUxaU9YRXFjSEdDZA?oc=5"
+    },
+    {
+     "title": "《两京十五日》定档11月29日",
+     "sum": "电视剧《两京十五日》定档江苏卫视，将于11月29日播出。",
+     "src": "紫牛新闻",
+     "en": "The drama Two Capitals in Fifteen Days will air on Jiangsu TV on November 29.",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80SFpNSHNUcndKcDdETk0xTzRLc1ZZZEo1TFhQYmd0LWxaQUExYl8zZDNzVlBCVW5lLUl2X2tvenpFMGc1bjhINjlOaktrcGdKbVJWakNVRjBhUEpvQ2dNWFJ2VkJwVXFX?oc=5"
+    }
+   ]
+  }
+ ]
+}

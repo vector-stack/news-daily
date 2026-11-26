@@ -1,0 +1,19 @@
+name: tts-test
+on:
+  push:
+    branches: [tts-test]
+  workflow_dispatch:
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install -q edge-tts
+      - run: cd tts_test && python tts.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: tts-result, path: "tts_test/news.mp3\ntts_test/result.json", retention-days: 7}
