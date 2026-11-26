@@ -1,1 +1,1 @@
-{"relay_key": "dry", "triggered_at": 1795704539, "job_start": 1795704545, "queue_seconds": 6, "segments": 58, "failed": 0, "retries": 0, "short": 0, "tts_seconds": 80.2, "mp3_seconds": 425.3, "mp3_mb": 3.4, "done_at": 1795704653}
+{"relay_key": "2026-11-27", "triggered_at": 1795735871, "job_start": 1795735878, "queue_seconds": 7, "segments": 58, "failed": 0, "retries": 0, "short": 0, "tts_seconds": 69.3, "mp3_seconds": 433.5, "mp3_mb": 3.47, "done_at": 1795735969}
