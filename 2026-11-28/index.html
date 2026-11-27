@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>今日新闻速览 · 11月28日</title>
+<style>
+:root{--bg:#f7f7f8;--fg:#1a1a1a;--card:#fff;--muted:#888;--muted2:#777;--faint:#aaa;--line:#f0f0f0;--chip:#f0f0f0;--chipfg:#666;--accent:#e5484d;--shadow:0 2px 12px rgba(0,0,0,.05);--border:#e5e5e5;--track:#eee}
+html[data-theme="paper"]{--bg:#F6F1E7;--fg:#3b2f25;--card:#FBF7EE;--muted:#8a7a66;--muted2:#6f6152;--faint:#a99a85;--line:#e8dfcd;--chip:#ece3d1;--chipfg:#6b5a46;--accent:#a0412d;--shadow:0 2px 10px rgba(90,60,20,.08);--border:#e2d7c2;--track:#e8dfcd}
+html[data-theme="green"]{--bg:#CCE8CF;--fg:#222;--card:#e3f2e4;--muted:#55665a;--muted2:#4a574d;--faint:#6f8274;--line:#bcd9bf;--chip:#c2dfc5;--chipfg:#3d4d41;--accent:#c0392b;--shadow:0 2px 10px rgba(30,70,40,.08);--border:#b4d3b7;--track:#bcd9bf}
+html[data-theme="oled"]{--bg:#000;--fg:#d6d6d6;--card:#000;--muted:#8a8a8a;--muted2:#9a9a9a;--faint:#666;--line:#1f1f1f;--chip:#161616;--chipfg:#a0a0a0;--accent:#ff5c61;--shadow:none;--border:#262626;--track:#262626}
+html[data-theme="oled"] section{border:1px solid #1f1f1f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;line-height:1.75;padding-bottom:120px;transition:background .2s,color .2s}
+.top{max-width:680px;margin:0 auto;padding:28px 18px 6px}
+.kicker{font-size:13px;color:var(--accent);font-weight:600;letter-spacing:.08em}
+h1{font-size:26px;margin:6px 0 4px}
+.sub{font-size:13px;color:var(--muted);margin:0}
+.hint{font-size:13px;color:var(--muted);margin:4px 0 0}
+main{max-width:680px;margin:0 auto;padding:0 18px}
+section{background:var(--card);border-radius:16px;padding:18px 18px 10px;margin:18px 0;box-shadow:var(--shadow)}
+section h2{font-size:17px;margin:0 0 10px;padding-left:10px;border-left:4px solid var(--accent)}
+article{padding:12px 4px;border-top:1px solid var(--line)}
+section article:first-of-type{border-top:none}
+article h3{font-size:15.5px;font-weight:400;margin:0;line-height:1.8}
+article h3 strong{font-weight:700}
+article .src{color:var(--faint);font-size:13.5px}
+article p.en{font-size:13.5px;color:var(--muted2);margin:8px 0 0;line-height:1.7}
+.meta{display:flex;align-items:center;gap:8px;margin-top:8px}
+.plat{font-size:12px;background:var(--chip);color:var(--chipfg);border-radius:6px;padding:2px 8px}
+.meta a{font-size:13px;color:var(--accent);text-decoration:none}
+.meta a:hover{text-decoration:underline}
+footer{max-width:680px;margin:24px auto 0;padding:0 18px;font-size:12px;color:var(--faint)}
+#theme-switch{max-width:680px;margin:0 auto;padding:12px 18px 0;display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+#theme-switch button{font-size:12px;padding:4px 10px;border-radius:999px;cursor:pointer;border:1px solid #ccc}
+#theme-switch button[data-t="default"]{background:#f7f7f8;color:#1a1a1a}
+#theme-switch button[data-t="paper"]{background:#F6F1E7;color:#3b2f25;border-color:#d9ccb3}
+#theme-switch button[data-t="green"]{background:#CCE8CF;color:#222;border-color:#a9cfad}
+#theme-switch button[data-t="oled"]{background:#000;color:#d6d6d6;border-color:#444}
+#theme-switch button.on{outline:2px solid var(--accent);outline-offset:1px}
+</style>
+<script>(function(){var t=(location.search.match(/theme=(\w+)/)||[])[1]||localStorage.getItem("news-theme");if(t&&t!=="default")document.documentElement.dataset.theme=t})()</script>
+</head>
+<body>
+<div id="theme-switch"><button data-t="default">简洁白</button><button data-t="paper">羊皮纸</button><button data-t="green">豆沙绿</button><button data-t="oled">纯黑</button></div>
+<script>(function(){var r=document.documentElement,bs=document.querySelectorAll('#theme-switch button');function mark(){var c=r.dataset.theme||"default";bs.forEach(function(b){b.classList.toggle("on",b.dataset.t===c)})}bs.forEach(function(b){b.onclick=function(){var t=b.dataset.t;if(t==="default")delete r.dataset.theme;else r.dataset.theme=t;localStorage.setItem("news-theme",t);mark()}});mark()})()</script>
+<header class="top">
+  <div class="kicker">新闻速览 · 2026年11月28日 星期六</div>
+  <h1>今日新闻速览</h1>
+  <p class="sub">23 条 · Google 新闻 / Hacker News / BBC / Guardian / Al Jazeera / CNBC 抓取精选 · 中英双语</p>
+  <p class="hint">点右下角按钮可逐条朗读（可切换中文 / 中英）</p>
+<div style="margin-top:10px"><div style="font-size:13px;color:var(--muted);margin-bottom:4px">中英双语口播</div><audio controls preload="metadata" src="news.mp3" style="width:100%;height:40px"></audio></div><p class="hint" style="margin-top:6px"><a href="news.png" style="color:var(--accent)">长图</a> · <a href="../archive.html" style="color:var(--accent)">往期</a></p>
+</header>
+<main>
+<section><h2>AI / 科技</h2>
+<article><h3><strong>黄仁勋复职引关注</strong>：<span class="sum">BBC 分析称，黄仁勋复职的英伟达风波，暴露出亚洲市场押注人工智能所面临的风险。</span> <span class="src">（BBC）</span></h3><p class="en">BBC analysis says the Nvidia turmoil around Jensen Huang&#x27;s return to the helm exposes the risks of Asia&#x27;s bet on AI.</p><div class="meta"><span class="plat">BBC</span><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53S3ZDb3RqZnVQLWplNTRxN053cVh2MG9WdDJzUDFjTmhrN1FDc2l4NVp6ZkFUVXhoSzZOSjhoMHVTN3JyTkdBYUFvaVVzUkZIbUNySG85bjlZdG14Z2ZrNkxsWVNsdjjSAWxBVV95cUxNSjFManh6VTJZZUdnM05tVGpJdzJ0TjYwRGI1WG5WX3JyY0tEdnAxM3hBaXNIbGdzQlJmZ1B4X1V1QXdTUUhQeVVJR2ZCZWxPT25xeFg5TlJ5TTRfeDl4UU1NMXhhbU1uWFpHZnE?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>OpenAI就商业秘密反诉苹果</strong>：<span class="sum">在人工智能竞赛加剧之际，OpenAI就商业秘密问题对苹果提起反诉，两家公司的紧张关系进一步升级。</span> <span class="src">（半岛电视台）</span></h3><p class="en">OpenAI has countersued Apple over trade secrets as the AI race heats up and tensions between the two firms escalate.</p><div class="meta"><span class="plat">半岛电视台</span><a href="https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss" target="_blank">原文 →</a></div></article>
+<article><h3><strong>SAP据报拟裁员至少1万人</strong>：<span class="sum">据报道，德国软件公司SAP正考虑裁员至少一万人，围绕人工智能重塑其软件业务。</span> <span class="src">（CNBC）</span></h3><p class="en">German software firm SAP is reportedly cutting at least 10,000 jobs as it reshapes its business around AI.</p><div class="meta"><span class="plat">CNBC</span><a href="https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html" target="_blank">原文 →</a></div></article>
+<article><h3><strong>多州起诉SpaceX母公司</strong>：<span class="sum">多州总检察长起诉SpaceX，要求阻止旗下Grok生成儿童性剥削图像和未经同意的私密图像。</span> <span class="src">（Hacker News）</span></h3><p class="en">State attorneys general sued SpaceX to stop Grok from generating child sexual images and non-consensual revenge porn.</p><div class="meta"><span class="plat">Hacker News</span><a href="https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform" target="_blank">原文 →</a></div></article>
+<article><h3><strong>DeepSeek新增对话资费查询</strong>：<span class="sum">DeepSeek上线对话资费查询功能，用户可以直接看到每一轮对话消耗了多少钱。</span> <span class="src">（驱动之家）</span></h3><p class="en">DeepSeek added a cost lookup, so users can see exactly how much each round of conversation costs.</p><div class="meta"><span class="plat">驱动之家</span><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aVWdqM3ZVUGhkUnNBVUFTWW5kUERHMDJnNXZ2X3R2aExUeVpFbmdfNW1kQUVhVnpkNzBoNjJaMmxSQUpLWkVtQTBvMVZTLUZXNVFCLVNmUmQ?oc=5" target="_blank">原文 →</a></div></article>
+</section>
+<section><h2>金融市场</h2>
+<article><h3><strong>恒生科技指数大涨6%</strong>：<span class="sum">港股收盘，恒生科技指数大涨6%，光通信、印制电路板和芯片板块领涨，同花顺称涨幅创年内纪录。</span> <span class="src">（东方财富）</span></h3><p class="en">Hong Kong&#x27;s Hang Seng Tech index closed up 6%, led by optical communications, PCB and chip stocks, a record gain for the year.</p><div class="meta"><span class="plat">东方财富</span><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYZ0RhQnlHUkhTYzJWbE9mMkstX1ZOcnN4ZnJ4SzlUbjVwZ2hMX3ZyTl9JOXpGMXdaa3hZRFkxdFdOT09jQ3RmYi1nYjFhZGpsTmhobXRFMDl3OURfOEJCcTV3UmJyQQ?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>前10月规上工业企业利润增16%</strong>：<span class="sum">国家统计局数据显示，1至10月份全国规模以上工业企业利润同比增长16.0%，盈利改善逐渐扩散。</span> <span class="src">（人民日报）</span></h3><p class="en">Profits at China&#x27;s major industrial firms rose 16.0% year on year in the first ten months, with the improvement spreading.</p><div class="meta"><span class="plat">人民日报</span><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9QX2lBeFNFeVFlRjQ4Z2Rub3RDZnNXMGI3eUppdjRLMldESFVoc2dOMXduYVRITFpMZFZ4eFhxRDhfQjR0bTRRR3J0T1VOWEF2eDE4OU9mU0h2ZzlmM1RDYTRuWUdMMGRJUWw4VHI1elZqRHUydlVKYWZDb1RUcHc?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>央行发布存贷款利率管理规定</strong>：<span class="sum">央行发布《人民币存贷款利率管理规定》，取消贷款罚息利率上下限，由金融机构与借款人协商确定。</span> <span class="src">（新华网）</span></h3><p class="en">China&#x27;s central bank issued new deposit and loan rate rules, scrapping the floor and cap on penalty interest on loans.</p><div class="meta"><span class="plat">新华网</span><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNlBMMlVqcUprSjFIM2VNSXFnNnZKWWR6TjVWLW1aVHVqQWpmUXFqTlFoNFY4WHl6aFV2bUdMNDNkTmFtVUM1SHVQWlZNaU1lYjVsb1dVa05zeG5kLTc3dk94RkEtMGZBYWUyenIyRzU2U1R5SmFpVkpCcVZYQktVM0UyMHM5bTVx?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>商务部回应美加征301关税</strong>：<span class="sum">商务部回应美国加征301关税，称个别国家以“产能过剩”为名，行保护主义之实。</span> <span class="src">（东方财富）</span></h3><p class="en">China&#x27;s Commerce Ministry responded to the new US Section 301 tariffs, saying &#x27;overcapacity&#x27; is being used as a cover for protectionism.</p><div class="meta"><span class="plat">东方财富</span><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LOEh6MWZ5c0FRejR0RmoydzBMWlh0TFJFRXA5d1NjQzBuMTU3TmlmX0hIdUlka1hyNlVhTUVGZDkxck1VNWI3QVM2NE5JMjFOS2NBeFlJME1CNmxxQzlDY2k0RQ?oc=5" target="_blank">原文 →</a></div></article>
+</section>
+<section><h2>国际时政</h2>
+<article><h3><strong>普京出席新型核潜艇升旗</strong>：<span class="sum">普京出席新型核潜艇“彼尔姆”号升旗仪式，俄方计划到2030年再增加五艘新型核潜艇。</span> <span class="src">（半岛电视台）</span></h3><p class="en">Putin unveiled a new nuclear-powered submarine with hypersonic weapons; Russia plans five more by 2030.</p><div class="meta"><span class="plat">半岛电视台</span><a href="https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss" target="_blank">原文 →</a></div></article>
+<article><h3><strong>美军击阻突破伊朗封锁商船</strong>：<span class="sum">美军称在阿曼湾使一艘试图突破对伊朗封锁的帕劳籍商船失去动力，船员未受伤。</span> <span class="src">（半岛电视台）</span></h3><p class="en">The US military says it disabled the propulsion of a Palau-flagged merchant ship trying to breach the Iran blockade; the crew was unharmed.</p><div class="meta"><span class="plat">半岛电视台</span><a href="https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss" target="_blank">原文 →</a></div></article>
+<article><h3><strong>泽连斯基批特朗普普京友谊</strong>：<span class="sum">泽连斯基在BBC采访中批评特朗普与普京的“奇怪”友谊，称美方对俄施压不足；乌方同时提出黑海休战。</span> <span class="src">（BBC）</span></h3><p class="en">Zelensky criticised the &#x27;strange&#x27; Trump-Putin friendship in a BBC interview, and Kyiv offered a Black Sea ceasefire.</p><div class="meta"><span class="plat">BBC</span><a href="https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&amp;at_campaign=rss" target="_blank">原文 →</a></div></article>
+<article><h3><strong>哈马斯领导人之子躲过空袭</strong>：<span class="sum">哈马斯领导人哈亚最后一个在世的儿子在以军空袭中幸存，他的另外四个儿子此前已遇难。</span> <span class="src">（半岛电视台）</span></h3><p class="en">Hamas leader al-Hayya&#x27;s last surviving son survived an Israeli strike in Gaza; four of his other sons were killed earlier.</p><div class="meta"><span class="plat">半岛电视台</span><a href="https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss" target="_blank">原文 →</a></div></article>
+<article><h3><strong>欧盟预算谈判陷僵局</strong>：<span class="sum">欧盟领导人未能打破1.7万亿美元预算僵局，谈判将于12月继续，关键期限逼近。</span> <span class="src">（CNBC）</span></h3><p class="en">EU leaders failed to break the $1.7 trillion budget deadlock; talks resume in December as a key deadline looms.</p><div class="meta"><span class="plat">CNBC</span><a href="https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html" target="_blank">原文 →</a></div></article>
+</section>
+<section><h2>社会民生</h2>
+<article><h3><strong>感恩节风暴袭美致数十万户停电</strong>：<span class="sum">强风暴袭击美国东部沿海，数十万户家庭停电，航班延误，纽约梅西游行也被推迟。</span> <span class="src">（RFI）</span></h3><p class="en">A severe storm hit the US East Coast, leaving hundreds of thousands without power, delaying flights and postponing the Macy&#x27;s parade.</p><div class="meta"><span class="plat">RFI</span><a href="https://news.google.com/rss/articles/CBMimgNBVV95cUxNem5xdFpTbWtJRjkya3gwaGFSSkhOX1pLdTV3cXN3VlFpd0xrX19WMUdreUZ6S1BybXc0WmtlWS0zb0t1Ymt2TXduSFVaak9PcGF2NGttSUxFalFnWEZJN24zdVQ5bkR6WkhuRlVINUJGZGp6YTBtYmZteWFKN1JpdkpVQ04xd3MtNjRSWGhNa1RhNEI1UWFMSWpYaW1pX2g3NzNrUUNZUUJmWG1icklVZ01BbHFSNW5MQ1lNSndzVlR1WjlyQUxadmgzMWRaUWFlaE5Dckhsb1ltMFF2QTBQTjBaSjIyTzZSUTNrcVBHbHlHSjFqWG1KWnQxbHBZVzNDYW5pWFJUSVlRM040WnY3NTh6VmFUeTdOTTd4OGdnU0t5WFdSWUdqaDM3WVU5WElFWlVhY1RuWGEtdkRyOXh1T1JxWEdMeDUxZkhfQnhKTnNPa1VLZGZUdjBtTGc2SXVSNUlvdWZIX214VGRfNXZjOWJYaVpVYmlHTExYQU9MUXBsb1JhaXdaemIwRTg5TWNSUzNPZGJCejRfQQ?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>宏福苑火灾一周年</strong>：<span class="sum">宏福苑大火一周年之际无官方悼念，灾民携168枝白花前往现场，称死者的公义至今没有着落。</span> <span class="src">（DW.com）</span></h3><p class="en">On the first anniversary of the Wang Fuk Court fire there was no official memorial; survivors brought 168 white flowers, saying justice is still missing.</p><div class="meta"><span class="plat">DW.com</span><a href="https://news.google.com/rss/articles/CBMi1AJBVV95cUxPRHNKYzhfSnZIbHlCUU1TTW1NVWc2amVrTms4c0w3OXY5V2MzdEU0OWlXTFZhSFlqbEFyRTJ0T1FRcUxOY2Y3UG8xeVp5YzVzeWhiRXQ2WDRxMWUwNUU1SUF1NUNReHdqQ2dBMkpYUGdPZXBYc1Y1cDRYZWQ2V0FUYjJEWllDY1BOZXRvMmxHSlJ1RVhrc2IzSVl6Zm9PZUYyS0FYTFhHYmF4VnlYeFVJdUkwLXRsemVldWJnY3dWSjNwa0hQUTBoX292R3BCbzlfMHpNVnpnNE5xX05VTkZORk1oLXQ1YjdqSXNmek9mSEp0MjU2WE9VXzlSY0Y4WnJEaXo0T2R1QW9VTXJLX3RtU3hMSno4dU9yVW93NzBOT0JZRkN5RGlwVzNsMmVHZlo2ZzNfVnBmUkRORGY0dG5EM3A4emNxczVLNjBsUHdfYmJTYWNY0gHUAkFVX3lxTFA2T2ZqZ0lzUWg1YmxENEQwbWQ5dzFWRUVCU25qQ29xcnNIaXdpb2NJbXFsOFhXWmhLSDItNHFveEhUcTFTVm5VNFViLVctY3l2cnBxcGdWOTlOSnF2Nkxod1RtWm9FYUZ1SDhKVG4tQXVxYUoyM1ZMLVg1dG1TemplaFNIcW53SjlCNFdvWFc0Sm41WWkwQW53cXVCcm05aDB6cFFJc0xDaV9mVkQtV1Via2dESDNWd0tKZm14b0stSVBQdHIxVnNSckcyd2huMmc5aU1uaGRjd2IxdGZWMnFBVk04clZvMDhPZVJUazVROFI1R0ZGbkpKSDdpcnJRVnBGVUlsVzFGblV3VW4zdG1xTXlEbTc0cUk4TkVYR3BUWW9kQjd4VHZMUEJmSnZ3ZHdtSjI5VEFvaU8wUmNiWHB3NklpdnY3T1NMcjNwOUtjZXZhQ2k?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>肯尼亚邪教头目再获刑事定罪</strong>：<span class="sum">肯尼亚末日邪教头目麦肯齐因另外123人死亡被判有罪，数周前他刚因杀害儿童被判刑。</span> <span class="src">（BBC）</span></h3><p class="en">Kenyan doomsday cult leader Paul Mackenzie was convicted over a further 123 deaths, weeks after being jailed over children&#x27;s deaths.</p><div class="meta"><span class="plat">BBC</span><a href="https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&amp;at_campaign=rss" target="_blank">原文 →</a></div></article>
+<article><h3><strong>韩国学校抢购金属探测器</strong>：<span class="sum">为防考生利用人工智能作弊，韩国学校抢购金属探测器，相关咨询量激增100倍。</span> <span class="src">（IT之家）</span></h3><p class="en">To stop students cheating with AI, South Korean schools are rushing to buy metal detectors, with enquiries up 100-fold.</p><div class="meta"><span class="plat">IT之家</span><a href="https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KY0x6SnVYblRXQkNWNlhRRkVnamRTWjhGZ1lmQ09SVm5jQUhKMHByZ2FQd25wMm5TeWtZTlpzblFGTDZjZFg3YXNNMm0?oc=5" target="_blank">原文 →</a></div></article>
+</section>
+<section><h2>文娱体育</h2>
+<article><h3><strong>U17国足8比0大胜斐济</strong>：<span class="sum">中国队以8比0大胜斐济晋级U17世界杯淘汰赛，时隔21年再次出线。</span> <span class="src">（新华网）</span></h3><p class="en">China beat Fiji 8-0 to reach the U17 World Cup knockout stage for the first time in 21 years.</p><div class="meta"><span class="plat">新华网</span><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE10NmowZjh5NFk0cXk1NmV1amlEQnF3UnhSb1lCTGZkWE1YXzFsaUdYMWJ0cGJwTFdTTEJiYjVwd3JfaS1iaXV6dERFdmtGUldCQmc3bDluUmxwNUg2X3FFdDEtX2VzakJ6ZWFCOTRNajdaWV9STW44?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>马奎兹宣布退役</strong>：<span class="sum">MotoGP八届世界冠军得主马克·马奎兹宣布退役，结束自己的摩托车赛车生涯。</span> <span class="src">（京报网）</span></h3><p class="en">Eight-time MotoGP world champion Marc Marquez has announced his retirement.</p><div class="meta"><span class="plat">京报网</span><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fQlFLZ293SjJmbXBLSUQ5eVJqZG9iWDlwdU9tOUNXQkNRSGpnTTdOSGxRdnFsY2NpWjRfOC1PaEt3blNKSkkyZmZPdmNqa1VFYmJITGsySUJrZ2drUlE?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>全球微短剧收入预计达200亿美元</strong>：<span class="sum">2026年全球微短剧收入预计达200亿美元，中资四大巨头占65%份额。</span> <span class="src">（Sohu）</span></h3><p class="en">Global micro-drama revenue is forecast to reach $20 billion in 2026, with four Chinese-backed giants holding 65% of the market.</p><div class="meta"><span class="plat">Sohu</span><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOUm1rNENiamdPUFdBS0hlVlpidUh1N1ZLejgya0pucHQxX1FJSjFVSXNQOXVYTU42THVJbHN6NE52SWNHSlgwT3U5dl9qQ19Nb2ptMjNLczFYY3VoT2xGUzh4NDdtMWZGNG5PTlNkRTYxRlZNLUJBNUotMk5wbFM4VFJTRXVKT2JvdHVPQQ?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>《小城良方》首播观众达1.48亿</strong>：<span class="sum">电视剧《小城良方》首播累计观众规模达1.48亿，因温暖的现实主义表达获好评。</span> <span class="src">（潮新闻客户端）</span></h3><p class="en">TV drama &#x27;Xiaocheng Liangfang&#x27; drew a cumulative 148 million viewers at launch and is praised for its warm realism.</p><div class="meta"><span class="plat">潮新闻客户端</span><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1YOElYMmpiUy1XdmIybTBhVTdCTXREbnBmeXhURlBzN0N6YWxoUkQzSk93S0E5REUxYjh3Nmg5QXZMSDVVWTZZX2xkOG5vNzBkTFJiUnFVdjBtcjVtRFRaZktJU1B2anlVRm5YRlZZdHdoSGM?oc=5" target="_blank">原文 →</a></div></article>
+<article><h3><strong>运动品牌涌入F1赞助</strong>：<span class="sum">耐克、阿迪达斯和彪马大举押注F1，赛事赞助支出增长75%，年轻观众推动其吸引力。</span> <span class="src">（CNBC）</span></h3><p class="en">Nike, Adidas and Puma are betting big on Formula 1 as sponsorship spending soars 75% on younger audiences.</p><div class="meta"><span class="plat">CNBC</span><a href="https://www.cnbc.com/2026/11/27/nike-formula-1-sportswear-brands-sponsorship-adidas-puma.html" target="_blank">原文 →</a></div></article>
+</section>
+</main>
+<footer>数据来源：Google 新闻 / Hacker News / BBC / Guardian / Al Jazeera / CNBC，每日 07:30 生成</footer>
+<style>
+#tts-bar{position:fixed;left:12px;right:12px;bottom:12px;z-index:9999;
+ background:var(--card);border:1px solid var(--border);border-radius:14px;
+ padding:10px 14px;box-shadow:0 4px 20px rgba(0,0,0,.15);font-size:15px}
+#tts-row1{display:flex;align-items:center;gap:6px}
+#tts-bar button.tbtn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:none;
+ background:var(--accent);color:#fff;font-size:17px;cursor:pointer}
+#tts-bar button.tbtn.ghost{background:#888}
+#tts-count{font-size:12px;color:var(--muted,#888);white-space:nowrap}
+#tts-bar select{font-size:12px;padding:6px 2px;border-radius:8px;border:1px solid var(--border,#e5e5e5);
+ background:var(--bg,#fff);color:inherit;margin-left:auto;max-width:64px}
+#tts-pbar{height:8px;border-radius:4px;background:var(--track,#eee);margin:10px 0 6px;cursor:pointer}
+#tts-pfill{height:100%;width:0%;border-radius:4px;background:var(--accent)}
+#tts-cur{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--muted,#666)}
+.reading{outline:3px solid var(--accent);outline-offset:2px;border-radius:8px}
+
+</style>
+
+<div id="tts-bar" style="display:none">
+ <div id="tts-row1">
+  <button class="tbtn" id="tts-prev" title="上一条">⏮</button>
+  <button class="tbtn" id="tts-play" title="播放/暂停">▶</button>
+  <button class="tbtn" id="tts-next" title="下一条">⏭</button>
+  <button class="tbtn ghost" id="tts-stop" title="停止">■</button>
+  <span id="tts-count">0 / 0</span>
+  <select id="tts-speed" title="语速">
+   <option value="0.8">0.8x</option><option value="1" selected>1x</option>
+   <option value="1.25">1.25x</option><option value="1.5">1.5x</option>
+  </select>
+  <select id="tts-mode" title="语言"><option value="zh">中文</option><option value="both">中英</option></select>
+ </div>
+ <div id="tts-pbar"><div id="tts-pfill"></div></div>
+ <div id="tts-cur">准备播放…</div>
+</div>
+<button id="tts-open" style="position:fixed;right:16px;bottom:16px;z-index:9999;width:56px;height:56px;border-radius:50%;border:none;background:#e5484d;color:#fff;font-size:24px;box-shadow:0 4px 16px rgba(0,0,0,.25);cursor:pointer" title="朗读">🔊</button>
+
+
+<script>(function(){
+var bar=document.getElementById('tts-bar'),openBtn=document.getElementById('tts-open'),
+    playBtn=document.getElementById('tts-play'),modeSel=document.getElementById('tts-mode'),
+    speedSel=document.getElementById('tts-speed'),curEl=document.getElementById('tts-cur'),
+    countEl=document.getElementById('tts-count'),pfill=document.getElementById('tts-pfill'),
+    pbar=document.getElementById('tts-pbar');
+var synth=window.speechSynthesis,idx=0,playing=false,zhVoice=null,gen=0;
+// 播放序列：按文档顺序，每个 section 先读组标题(h2)再读其 articles
+var units=[];
+var secs=document.querySelectorAll('section');
+if(secs.length>0){
+document.querySelectorAll('section').forEach(function(sec){
+  var h=sec.querySelector('h2');
+  if(h){
+    var ht=h.textContent.trim().replace(/([A-Za-z])(\d)/,'$1，$2');
+    units.push({el:h,kind:'h',zh:ht,en:''});
+  }
+  sec.querySelectorAll('article').forEach(function(a){
+    var t=texts(a);units.push({el:a,kind:'a',zh:t.zh,en:t.en});
+  });
+});
+}else{
+units=[...document.querySelectorAll('article')].map(function(a){var t=texts(a);return {el:a,kind:'a',zh:t.zh,en:t.en};});
+}
+var totalArts=units.filter(u=>u.kind==='a').length;
+function pickVoice(){
+  var vs=synth.getVoices().filter(v=>v.lang&&v.lang.toLowerCase().indexOf('zh')===0);
+  zhVoice=vs.find(v=>v.lang.toLowerCase().indexOf('cn')>0)||vs[0]||null;
+}
+if(synth){pickVoice();synth.onvoiceschanged=pickVoice;}
+function texts(a){
+  var zh=(a.querySelector('h3')||{}).textContent||'';
+  var en=(a.querySelector('p.en')||{}).textContent||'';
+  return {zh:zh.trim(),en:en.trim()};
+}
+function utter(t,lang,voice,done){
+  var u=new SpeechSynthesisUtterance(t);u.lang=lang;u.rate=parseFloat(speedSel.value)||1;
+  if(voice)u.voice=voice;
+  u.onend=done;u.onerror=done;synth.speak(u);
+}
+function mark(i){
+  document.querySelectorAll('.reading').forEach(e=>e.classList.remove('reading'));
+  var u=units[i];if(!u)return;
+  u.el.classList.add('reading');
+  u.el.scrollIntoView({behavior:'smooth',block:'center'});
+  curEl.textContent=u.zh||u.en;
+  var artsDone=units.slice(0,i+1).filter(x=>x.kind==='a').length;
+  countEl.textContent=artsDone+' / '+totalArts;
+  pfill.style.width=((i+1)/units.length*100).toFixed(1)+'%';
+}
+function speakSeq(seq,k,g,done){
+  if(g!==gen||!playing)return;
+  if(k>=seq.length){done();return;}
+  var s=seq[k];
+  utter(s.t,s.lang,s.v,function(){speakSeq(seq,k+1,g,done);});
+}
+function speakAt(i,g){
+  if(g!==gen||!playing)return;
+  if(i>=units.length){finish();return;}
+  idx=i;mark(i);
+  var u=units[i];
+  var seq=(modeSel.value==='both'&&u.en&&u.en!==u.zh)
+    ?[{t:u.zh,lang:'zh-CN',v:zhVoice},{t:u.en,lang:'en-US',v:null}]
+    :[{t:u.zh||u.en,lang:'zh-CN',v:zhVoice}];
+  speakSeq(seq,0,g,function(){speakAt(i+1,g);});
+}
+function go(i){
+  gen++;
+  if(synth)synth.cancel();
+  idx=Math.max(0,Math.min(units.length-1,i));
+  if(playing){speakAt(idx,gen);}
+  else{mark(idx);}
+}
+function finish(){
+  playing=false;playBtn.textContent='▶';curEl.textContent='播放结束';
+}
+function fullStop(){
+  gen++;playing=false;idx=0;
+  if(synth)synth.cancel();
+  playBtn.textContent='▶';
+  document.querySelectorAll('.reading').forEach(e=>e.classList.remove('reading'));
+  curEl.textContent='准备播放…';countEl.textContent='0 / '+totalArts;pfill.style.width='0%';
+}
+playBtn.onclick=function(){
+  if(!synth){curEl.textContent='浏览器不支持朗读';return;}
+  if(playing){playing=false;gen++;synth.pause();playBtn.textContent='▶';}
+  else{
+    playing=true;playBtn.textContent='⏸';
+    if(synth.paused&&synth.pending!==false){synth.resume();}
+    else{gen++;speakAt(idx>=units.length?0:idx,gen);}
+  }
+};
+document.getElementById('tts-prev').onclick=function(){go(idx-1);};
+document.getElementById('tts-next').onclick=function(){go(idx+1);};
+document.getElementById('tts-stop').onclick=fullStop;
+pbar.onclick=function(e){
+  var r=pbar.getBoundingClientRect();
+  var ratio=Math.max(0,Math.min(1,(e.clientX-r.left)/r.width));
+  go(Math.floor(ratio*units.length));
+};
+openBtn.onclick=function(){
+  var show=bar.style.display==='none';
+  bar.style.display=show?'block':'none';openBtn.style.display=show?'none':'block';
+  if(!show)fullStop();
+};
+countEl.textContent='0 / '+totalArts;
+})();</script>
+
+</body>
+</html>
